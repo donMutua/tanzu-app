@@ -7,6 +7,7 @@
     "test": "jest --watch",
     "test:ci": "jest --ci",
     "storybook": "start-storybook -p 6006",
+    "lint": "yarn eslint src",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -37,6 +38,7 @@
     "@testing-library/user-event": "14.2.0",
     "@types/react": "18.0.9",
     "babel-loader": "^8.2.5",
+    "eslint": "^8.21.0",
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "storybook-addon-next": "1.4.0",
