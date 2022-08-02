@@ -9,9 +9,6 @@ export function Community() {
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <div>
-            <h2 className="text-base text-fuchsia-600 font-semibold tracking-wide uppercase">
-              Community
-            </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               The opportunities{" "}
             </h3>
@@ -83,25 +80,21 @@ export function Community() {
           </div>
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
+              <h2 className="text-base mt-6 mb-4 text-fuchsia-600 font-semibold tracking-wide uppercase">
+                Community
+              </h2>
               <p className="text-lg text-gray-500">
                 Tanzu is a community where everyone thrives. Our goal is to
                 combine forces to enable the youth to become great tech leaders.
-                The building blocks of succeeding are Learning, Apprenticeship
-                and mentorship.
+                The building blocks of success are Learning, Apprenticeship and
+                mentorship.
               </p>
             </div>
             <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-              <p>
-                Tanzu is a community where everyone thrives. Our goal is to
-                combine forces to enable the youth to become great tech leaders.
-                The building blocks of succeeding are Learning, Apprenticeship
-                and mentorship.
-              </p>
-
               <h2 className="text-base mt-6 mb-4 text-fuchsia-600 font-semibold tracking-wide uppercase">
                 Events
               </h2>
-              <p>
+              <p className="text-lg text-gray-500">
                 What better way to learn and get inspired by people who have
                 been there before you? With Events from industry leaders, the
                 ability to learn and see the possibilities is unmatched.
@@ -111,17 +104,17 @@ export function Community() {
                 Mentoring
               </h2>
 
-              <p>
+              <p className="text-lg text-gray-500">
                 One of the most important aspects of succeeding is having
                 mentors. We aspire to offer mentorship to succeed in your career
-                development or building your own startup
+                development or building your own startup.
               </p>
 
               <h2 className="text-base mt-6 mb-4 text-fuchsia-600 font-semibold tracking-wide uppercase">
                 Connections
               </h2>
 
-              <p>
+              <p className="text-lg text-gray-500">
                 Tanzu community will enable you to create long-term connections.
                 Get advice, validate ideas and create great relationships.
               </p>

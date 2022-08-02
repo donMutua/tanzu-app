@@ -80,14 +80,13 @@ export function About() {
                 frontier in technology advancement and leadership.
               </p>
               <p className="text-base leading-7">
-                Our mission is to offer the necessary tools to everyone to make
-                them able to get into the technology space.
+                Our mission is to offer the necessary tools to African youths to
+                enable them to become great tech leaders.
               </p>
               <p className="text-base leading-7">
-                We link the youth to Apprenticeship programs from leading
-                companies, learning, and mentorship which are necessary for
-                success. Partnering with the best employers to offer
-                apprenticeships to African youths
+                We link African youths to Apprenticeship programs from leading
+                companies and offer courses through boot camps, and mentorship
+                programs.
               </p>
             </div>
           </div>
