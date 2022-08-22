@@ -113,7 +113,7 @@ export function WaitListForm({ onValidated, message, status }: FormState) {
             ) : null}
             {"error" === status || error ? (
               <div
-                className="text-red-700 pt-2"
+                className="text-red-300 pt-2"
                 dangerouslySetInnerHTML={{
                   __html: error || getMessage(message),
                 }}
