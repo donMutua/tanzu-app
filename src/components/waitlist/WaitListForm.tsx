@@ -52,16 +52,16 @@ export function WaitListForm({ onValidated, message, status }: FormState) {
    * @param {String} message
    * @return {null|*}
    */
-  const getMessage = (message: string | null) => {
+  const getMessage = (message: string) => {
     if (!message) {
-      return null;
+      return "";
     }
-    const result = message?.split("-") ?? null;
+    const result = message?.split("-") ?? "";
     if ("0" !== result?.[0]?.trim()) {
       return sanitize(message);
     }
-    const formattedMessage = result?.[1]?.trim() ?? null;
-    return formattedMessage ? sanitize(formattedMessage) : null;
+    const formattedMessage = result?.[1]?.trim() ?? "";
+    return formattedMessage ? sanitize(formattedMessage) : "";
   };
   return (
     <div className="bg-blue-800 mb-8 mt-8" id="waitlist">
