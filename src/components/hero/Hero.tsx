@@ -17,6 +17,7 @@ import {
 
 import BlackWoman from "../../../public/images/smilinggirl.jpg";
 import { TopNavigation } from "../topNavigation/TopNavigation";
+import Link from "next/link";
 
 const features = [
   {
@@ -117,24 +118,23 @@ export function Hero() {
               technology by giving them the necessary skills to be tech experts
               and tech founders
             </p>
-            {/* <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
+            <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
-                <a
-                  href="#"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-fuchsia-800 hover:bg-fuchsia-700 md:py-4 md:text-lg md:px-10"
-                >
-                  Get started
-                </a>
+                <Link href="#waitlist">
+                  <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-fuchsia-800 hover:bg-fuchsia-700 md:py-4 md:text-lg md:px-10">
+                    Join waitlist
+                  </a>
+                </Link>
               </div>
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+              {/* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-fuchsia-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                 >
                   Live demo
                 </a>
-              </div>
-            </div> */}
+              </div> */}
+            </div>
           </div>
         </div>
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
