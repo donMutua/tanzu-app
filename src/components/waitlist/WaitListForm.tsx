@@ -64,7 +64,7 @@ export function WaitListForm({ onValidated, message, status }: FormState) {
     return formattedMessage ? sanitize(formattedMessage) : "";
   };
   return (
-    <div className="bg-blue-800 mb-8 mt-8" id="waitlist">
+    <div className="bg-blue-800  mt-8" id="waitlist">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2
